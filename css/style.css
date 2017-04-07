@@ -1,0 +1,76 @@
+/* start carousel slide*/
+.item img{
+  width: 100%;
+  height: 200%;
+}
+.carousel-caption{
+  bottom: 140px;
+  background: rgba(3, 3, 3, 0.8);
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.carousel-indicators{
+  bottom: 0;
+}
+.carousel-indicators li{
+  height: 15px;
+  width: 15px;
+}
+.carousel-indicators .active{
+  height: 17px;
+  width: 17px;
+  background: #E41B17;
+}
+
+/* end carousel slide*/
+
+/* start testimnials*/
+
+.testimonials{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.testimonials h1{
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.testimonials .lead{
+  line-height: 2em;
+}
+.testimonials span{
+  font-size: 18px;
+  font-weight: bold;
+  color: #E41B17;
+}
+
+.testimonials .carousel-inner{
+  min-height: 160px;
+}
+.testimonials .carousel-indicators{
+  position: static;
+  width: 100%;
+  margin-left: auto;
+  padding-top: 20px;
+}
+.testimonials .carousel-indicators li{
+  text-indent: 0;
+  width: 80px;
+  height:80px;
+  opacity: 0.4;
+  border: 2px solid #FFF;
+  -web-transition:all 0.5s ease;
+-moz-transition:all 0.5s ease;
+-o-transition:all 0.5s ease;
+transition:all 0.5s ease;
+}
+.testimonials .carousel-indicators li.active{
+  width: 80px;
+  height:80px;
+  opacity: 1;
+  background: none;
+  border: 2px solid #E41B17;
+}
+.testimonials .carousel-indicators li img{
+  max-width: 100%;
+}
+/* end testimnials*/
